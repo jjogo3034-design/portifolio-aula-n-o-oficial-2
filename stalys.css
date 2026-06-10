@@ -1,0 +1,170 @@
+
+
+/* ===== GERAL ===== */
+
+body{
+    background: #111111;
+    color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ===== TITULOS ===== */
+
+h1{
+    text-align: center;
+    color: #FF6B00;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'MinhaFonte', sans-serif;
+    text-shadow: 0 0 10px rgba(255,107,0,.5);
+
+    margin-top: 40px;
+}
+
+/* ===== DADOS PESSOAIS ===== */
+
+.dados-pessoais{
+    max-width: 900px;
+
+    margin: 30px auto;
+
+    background: #1B1B1B;
+
+    border: 3px solid #FF6B00;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    box-shadow:
+    0 0 20px rgba(255,107,0,.2);
+}
+
+/* ===== IMAGEM ===== */
+
+.imagem{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.imagem img{
+
+    width: 250px;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid #9DFF00;
+
+    box-shadow:
+    0 0 20px rgba(157,255,0,.4);
+}
+
+/* ===== TEXTOS ===== */
+
+h4{
+    font-size: 18px;
+    font-weight: 500;
+
+    color: #EAEAEA;
+
+    margin: 15px 0;
+}
+
+/* ===== PROJETOS ===== */
+
+.projetos{
+
+    max-width: 900px;
+
+    margin: 30px auto;
+
+    background: #1B1B1B;
+
+    border: 3px solid #9DFF00;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    box-shadow:
+    0 0 20px rgba(157,255,0,.15);
+}
+
+/* ===== LISTA ===== */
+
+ul{
+
+    background: #222;
+
+    padding: 20px 40px;
+
+    border-radius: 15px;
+
+    border-left: 5px solid #FF6B00;
+}
+
+li{
+
+    margin: 10px 0;
+
+    color: #CCCCCC;
+
+    line-height: 1.6;
+}
+
+/* ===== EFEITOS ===== */
+
+.dados-pessoais:hover,
+.projetos:hover{
+
+    transform: translateY(-5px);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.imagem img:hover{
+
+    transform: scale(1.05);
+
+    transition: .3s;
+}
+
+/* ===== RESPONSIVO ===== */
+
+@media (max-width:768px){
+
+    h1{
+        font-size: 28px;
+         font-family: 'MinhaFonte';
+    }
+
+    .imagem img{
+        width: 180px;
+        height: 180px;
+    }
+
+}
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('./fonts/NextUpsBlack.ttf') format('truetype');
+}
+p {
+    color: #EAEAEA;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+    color: #EAEAEA;
+}
+a {
+    color: #FF6B00;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

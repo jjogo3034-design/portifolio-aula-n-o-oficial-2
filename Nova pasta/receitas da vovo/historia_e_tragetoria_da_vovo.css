@@ -1,0 +1,25 @@
+body{
+    align-items: center;
+    text-align: center;
+    background-color: #532c02;
+    color: #ffffff;
+   
+}
+button{
+    background-color: #925a05 ; 
+    color: white;              
+    border: none;            
+    border-radius: 15px;    
+    cursor: pointer;          
+    font-size: 16px;
+    box-shadow:0px 0px 20px  #925a05 ;
+ 
+}
+button:hover{
+transform: scale(1.1);
+}
+a{
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
