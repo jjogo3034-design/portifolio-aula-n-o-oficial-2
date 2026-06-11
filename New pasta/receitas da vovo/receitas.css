@@ -1,0 +1,102 @@
+ body{
+    background-attachment: fixed;
+    background-color: #532c02;
+    text-align: center;
+    color: #ffffff;
+   
+
+
+
+}
+.organizar{
+flex-direction: column;
+ background-color: #ffffff;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.caixa1{
+ background-color: #1d0f01;
+    width: 300px;
+    padding: 20px;
+    margin: 750px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 210px;
+
+}
+.caixa2{
+ background-color: #1d0f01;
+    width: 300px;
+    padding: 20px;
+    margin: 750px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 210px;
+
+}
+.caixa3{
+ background-color: #1d0f01;
+    width: 300px;
+    padding: 20px;
+    margin: 750px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 210px;
+
+}.caixa4{
+ background-color: #1d0f01;
+    width: 300px;
+    padding: 20px;
+    margin: 750px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 210px;
+
+}.caixa5{
+ background-color: #1d0f01;
+    width: 300px;
+    padding: 20px;
+    margin: 750px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 210px;
+
+}
+.caixa6{
+ background-color: #1d0f01;
+    width: 300px;
+    padding: 20px;
+    margin: 750px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 210px;
+
+}
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 12px; /* Largura vertical */
+  height: 12px; /* Altura horizontal */
+}
+
+/* Área de fundo (trilho) da barra de rolagem */
+::-webkit-scrollbar-track {
+  background:  #1d0f01;
+  border-radius: 10px;
+}
+
+/* O "botão" da barra de rolagem que é arrastado */
+::-webkit-scrollbar-thumb {
+  background: #b37f48;
+  border-radius: 10px;
+}
+
+/* Estilo do botão ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #925a05;
+}
